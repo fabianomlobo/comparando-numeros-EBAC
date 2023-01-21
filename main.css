@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 600px;
+    max-height: 400px;
+    background-color: aquamarine;
+    padding: 35px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input{
+    font-size: 20px;
+    width: 120px;
+    font-family: tahoma;
+}
+
+p{
+    font-size: 22px;
+    margin-top: 10px;
+    display: none;
+}
