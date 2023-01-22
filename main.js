@@ -11,17 +11,12 @@ formulario.addEventListener('submit', function(e){
     
     if (numeroA < numeroB){  
         mensagemFeedback.style.display = 'block'
-        mensagemFeedback.innerHTML = `O número ${numeroA} é menor que o número ${numeroB}`
-        clear()
-        
-    } else if (numeroA == numeroB){
-        mensagemFeedback.style.display = 'block'
-        mensagemFeedback.innerHTML = `O número ${numeroA} é igual ao número ${numeroB}`
+        mensagemFeedback.innerHTML = `Tudo certo!`
         clear()
         
     } else {
         mensagemFeedback.style.display = 'block'
-        mensagemFeedback.innerHTML = `O número ${numeroA} é maior que o número ${numeroB}`
+        mensagemFeedback.innerHTML = `Formulário incorreto`
         clear()
     }
 })
